@@ -20,6 +20,9 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .logo {
@@ -46,3 +49,25 @@ a {
 ul {
   list-style-type: none;
 }
+
+.box-1{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+}
+
+.inner-box-1{
+  display: flex;
+  gap: 16px;
+}
+
+.inner-box-2{
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+  
+}
+
+
